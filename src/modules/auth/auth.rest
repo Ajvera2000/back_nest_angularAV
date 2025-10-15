@@ -17,3 +17,6 @@ Content-Type: application/json
     "email":"rp2@hm.com",
     "password":"1234567"
 }
+### users
+GET http://127.0.0.1:3000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsImlkIjoxLCJpYXQiOjE3NjA1MDUyMDQsImV4cCI6MTc2MDUwNTIwNH0.QmasU-8Xs8hxAo095OOtOS3boHkeoFuahtpuQfM4wQY
