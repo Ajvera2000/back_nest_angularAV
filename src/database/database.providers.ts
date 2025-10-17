@@ -9,7 +9,7 @@ export const databaseprovider=[
                 host:"localhost",
                 port: 5432,
                 username:"postgres",
-                password:"123456",
+                password:"12345",
                 database:"Back_End_Angelo_Vera"
             });
 
