@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
+import { Persona } from "../../persona/entities/persona.entity";
+import { Column, Entity, OneToOne, PrimaryGeneratedColumn } from "typeorm";
 
 
 @Entity()
@@ -20,4 +21,7 @@ export class User {
 
     @Column()
     phone: string;
+
+    @OneToOne(()=>Persona,Persona=>Persona.user,{cascade:true})
+    persona:Persona;
 }
